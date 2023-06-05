@@ -8,8 +8,12 @@ function form() {
     let nome = document.getElementById('name').value;
     let email = document.getElementById('email').value;
     let senha = document.getElementById('senha').value;
+    let tel = document.getElementById('telefone').value;
     let plano = document.getElementById('plano').value;
-    console.log(plano);
+    
+    sessionStorage.setItem('nome', nome);
+    sessionStorage.setItem('email', email);
+    sessionStorage.setItem('senha', senha);
 
     if (nome.length < 3 || nome == '') {
         Swal.fire(
@@ -25,11 +29,18 @@ function form() {
                 text: 'Preencha o email corretamente',
                 icon: 'error'
             });
+    } else if (tel == '') {
+        Swal.fire(
+            {
+                title: 'Erro:',
+                text: 'Preencha o telefone corretamente',
+                icon: 'error'
+            });
     } else if (senha == '') {
         Swal.fire(
             {
                 title: 'Erro:',
-                text: 'Preencha a senha corretamente',
+                text: 'Preencha o telefone corretamente',
                 icon: 'error'
             });
     } else if (plano == 0){
@@ -45,5 +56,9 @@ function form() {
                 title: 'Verifique o email cadastrado',
                 icon: 'success'
             });
+
+        setTimeout(function() {
+            window.open('../pages/login.html');
+        }, 1750);
     };
 };
