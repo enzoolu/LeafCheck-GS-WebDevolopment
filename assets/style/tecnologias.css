@@ -1,0 +1,59 @@
+.tecnologias {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tecnologias p {
+    margin-top: 30px;
+    width: 250px;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.db,
+.ia,
+.machine-learning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -250px;
+}
+
+.db,
+.machine-learning {
+    margin-top: 260px;
+}
+
+@media (max-width: 480px) {
+    .db,
+    .machine-learning {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0px;
+        gap: 5px;
+    }
+
+    .ia {
+        padding-top: 200px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .ia p {
+        padding-left: 15px;
+    }
+
+    .tecnologias p {
+        font-size: 20px;
+    }
+
+    .db img,
+    .ia img,
+    .machine-learning img {
+        width: 45%;
+    }
+}

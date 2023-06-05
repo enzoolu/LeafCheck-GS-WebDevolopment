@@ -1,0 +1,12 @@
+.aplicacao {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aplicacao p {
+    font-size: 24px;
+    font-weight: 300;
+}

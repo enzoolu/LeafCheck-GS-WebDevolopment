@@ -1,0 +1,17 @@
+footer {
+    height: 20vh;
+    background-color: var(--verde-logo);
+    color: var(--background);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 480px) {
+    footer {
+        display: flex;
+        flex-direction: column-reverse;
+        font-size: 14px;
+    }
+}

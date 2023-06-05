@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@100;200;300;800&family=Readex+Pro&family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- Icone -->
+    <link rel="icon" href="./assets/images/logo.svg"/>
+    <!-- CSS's -->
+    <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/header.css">
+    <link rel="stylesheet" href="./assets/style/hero.css">
+    <link rel="stylesheet" href="./assets/style/solucao.css">
+    <link rel="stylesheet" href="./assets/style/tecnologias.css">
+    <link rel="stylesheet" href="./assets/style/objetivos.css">
+    <link rel="stylesheet" href="./assets/style/alvo.css">
+    <link rel="stylesheet" href="./assets/style/aplicacao.css">
+    <link rel="stylesheet" href="./assets/style/planos.css">
+    <link rel="stylesheet" href="./assets/style/footer.css">
+    <link rel="stylesheet" href="./assets/style/darkMode.css">
+    <title>Leaf Check</title>
+</head>
+<body>
+    <header>
+        <img src="./assets/images/logo.svg" alt="Logo LeafCheck">
+        <nav>
+            <ul>
+                <li><a href="#solucao">Solução</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#objetivos">Objetivos</a></li>
+                <li><a href="#alvo">Público alvo</a></li>
+                <li><a href="#aplicacao">Aplicação</a></li>
+                <li><a href="#planos" class="plano">Planos</a></li>
+                <li class="icon-darkMode">
+                    <img onclick="funcao_mudaCor()" src="./assets/images/darkMode/dark-icon.svg" alt="icon darkMode">
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <div class="textos-apresentacao">
+            <h1>LeafCheck</h1>
+            <p>Detecte, Proteja, Cultive: O poder da inteligência artificial para cuidar das suas plantas.</p>
+        </div>
+        <div class="hero-images">
+            <div class="coluna-img-pequenas">
+                <img src="./assets/images/hero/hero1.svg" alt="Plantação">
+                <img src="./assets/images/hero/hero2.svg" alt="Plantação">
+            </div>
+            <div class="coluna-img-grande">
+                <img src="./assets/images/hero/hero3.svg" alt="Plantação">
+            </div>
+            <div class="coluna-img-pequenas">
+                <img src="./assets/images/hero/hero4.svg" alt="Plantação">
+                <img src="./assets/images/hero/hero5.svg" alt="Plantação">
+            </div>
+            <div class="coluna-img-grande">
+                <img src="./assets/images/hero/hero6.svg" alt="Plantação">
+            </div>
+            <div class="coluna-img-pequenas ultima-coluna">
+                <img src="./assets/images/hero/hero7.svg" alt="Plantação">
+                <img src="./assets/images/hero/hero8.svg" alt="Plantação">
+            </div>
+        </div>
+    </div>
+
+    <div class="solucao" id="solucao">
+        <div class="linha1">
+            <p>Nossa solução utiliza IA e aprendizado de máquina para detectar doenças antecipadamente em plantas por meio de imagens de folhas.</p>
+            <img id="image1">
+        </div>
+        <div class="linha2">
+            <img id="image2">
+            <p>Com nosso aplicativo, os agricultores podem evitar perdas significativas nas colheitas ao detectar e prevenir doenças de plantas de forma rápida e precisa.</p>
+        </div>
+    </div>
+
+    <div class="tecnologias" id="tecnologias">
+        <div class="db">
+            <img src="./assets/images/tecnologias/bd-icon.svg" alt="icone de banco de dados">
+            <p>Banco de dados: Contém informações sobre diversas doenças de plantas e seus sintomas relacionados.</p>
+        </div>
+        <div class="ia">
+            <img src="./assets/images/tecnologias/ia-icon.svg" alt="icone de inteligencia artificial">
+            <p>IA: Analisa imagens de folhas para identificar doenças, ajudando agricultores a prevenir perdas nas colheitas.</p>
+        </div>
+        <div class="machine-learning">
+            <img src="./assets/images/tecnologias/machine-learning-icon.svg" alt="icone de aprendizado de máquina">
+            <p>Aprendizado de máquina: Ensina o sistema a reconhecer padrões e aprimorar a detecção de doenças de plantas.</p>
+        </div>
+    </div>
+
+    <div class="objetivos" id="objetivos">
+        <div class="objetivos-introducao">
+            <div class="objetivos-img">
+                <img src="./assets/images/objetivos/objetivos1.svg" alt="estagio inicial do crescimento da planta">
+                <img src="./assets/images/objetivos/objetivos2.svg" alt="plantação de tomamtes">
+                <img src="./assets/images/objetivos/objetivos3.svg" alt="fazenda">
+            </div>
+            <div class="objetivos-titulo">
+                <p class="palavra1">Nosso</p>
+                <p>Objetivo</p>
+            </div>
+        </div>
+        <div class="nosso-objetivos">
+            <div class="obj">
+                <p class="num">1</p>
+                <hr>
+                <p class="descricao">Aumentar a produtividade e reduzir perdas nas colheitas</p>
+            </div>
+            <div class="obj">
+                <p class="num">2</p>
+                <hr>
+                <p class="descricao">Promover práticas agrícolas sustentáveis e seguras, reduzindo os agrotóxicos e protegendo o meio ambiente</p>
+            </div>
+            <div class="obj">
+                <p class="num">3</p>
+                <hr>
+                <p class="descricao">Reduzir a ocorrência de doenças e pragas nas plantações</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="publico-alvo" id="alvo">
+        <div class="texto-alvo">
+            <p>Pensando em</p>
+            <p class="voce-alvo">Você!</p>
+        </div>
+        <div class="cards">
+            <div class="card">
+                <img src="./assets/images/publico-alvo/card1.svg" alt="">
+                <div class="texto-card">
+                    <h2>Você que deseja aumentar sua produtividade</h2>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="./assets/images/publico-alvo/card2.svg" alt="">
+                <div class="texto-card">
+                    <h2>Você que deseja cuidar da saúde de suas plantas</h2>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="./assets/images/publico-alvo/card3.svg" alt="">
+                <div class="texto-card">
+                    <h2>Você que deseja uma informação mais detalhada sobre sua plantacao</h2>
+                </div>
+            </div>
+    
+            <div class="card">
+                <img src="./assets/images/publico-alvo/card4.svg" alt="">
+                <div class="texto-card">
+                    <h2>Você que deseja reduzir gastos a longo prazo</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="aplicacao" id="aplicacao">
+        <div class="cards">
+            <div class="card">
+                <img src="./assets/images/aplicação/aplicacao-img1.svg" alt="">
+            </div>
+            <div class="card">
+                <img src="./assets/images/aplicação/aplicacao-img2.svg" alt="">
+            </div>
+            <div class="card">
+                <img src="./assets/images/aplicação/aplicacao-img3.svg" alt="">
+            </div>
+        </div>
+        <p>Você pode utilizar nosso aplicativo de qualquer lugar e a qualquer hora, com o uso do GPS e da Internet!</p>
+    </div>
+
+
+    <div class="planos" id="planos">
+        <div class="padrao">
+            <h1>Plano Básico</h1>
+            <div class="preco">
+                <h2 class="a_vista">R$99,99</h2>
+                <h2 class="parcelado">12x R$8,40</h2>
+            </div>
+            <div class="beneficios">
+                <h2>Benefícios:</h2>
+                <ul>
+                    <li>Em progresso...</li>
+                </ul>
+            </div>
+            <div class="assinar">
+                <a href="./assets/pages/form.html">Assinar</a>
+            </div>
+        </div>
+        <div class="premium">
+            <h1>Plano Premium</h1>
+            <div class="preco">
+                <h2 class="a_vista">R$299,99</h2>
+                <h2 class="parcelado">12x R$25</h2>
+            </div>
+            <div class="beneficios">
+                <h2>Benefícios:</h2>
+                <ul>
+                    <li>Em progresso...</li>
+                </ul>
+            </div>
+            <div class="assinar">
+                <a href="./assets/pages/form.html">Assinar</a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="direitos">
+            <h3>Todos os direitos reservados - FIAP 2023</h3>
+        </div>
+        <div class="membros">
+            <h3>RM99666 - Enzo Luiz Goulart</h3>
+            <h3>RM98720 - Natan Eguchi dos Santos</h3>
+            <h3>RM99929 - Kayky Paschoal Ribeiro</h3>
+            <h3>RM98864 - Gustavo Henrique Santos Bonfin</h3>
+            <h3>RM99757 - Lucas Yuji Farias Umada</h3>
+        </div>
+    </footer>
+
+    <script src="./assets/JS/darkMode.js"></script>
+    <script src="./assets/JS/slideshow.js"></script>
+</body>
+</html>

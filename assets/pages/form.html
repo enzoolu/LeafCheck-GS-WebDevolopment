@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&family=Montserrat:wght@100;200;300;800&family=Readex+Pro&family=Ubuntu&display=swap" rel="stylesheet">
+    <!-- Icone -->
+    <link rel="icon" href="./assets/images/logo.svg"/>
+    <!-- CSS's -->
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/form.css">
+    <title>Leaf Check - Formulário</title>
+</head>
+<body>
+    <header>
+        <img src="../images/logo.svg" alt="Logo LeafCheck">
+        <h1>LeafCheck</h1>
+    </header>
+
+    <main>
+        <form>
+            <div class="dados">
+                <select name="plano" id="plano">
+                    <option value="0">Escolha seu plano</option>
+                    <option value="1">Básico</option>
+                    <option value="2">Premium</option>
+                </select>
+                <input type="text" placeholder="NOME:" id="name">
+                <input type="email" placeholder="E-MAIL:" id="email">
+                <input type="password" placeholder="SENHA:" id="senha">
+                <button id="confirmar">CONFIRMAR</button>
+            </div>
+        </form>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../JS/form.js"></script>
+</body>
+</html>

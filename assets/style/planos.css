@@ -1,0 +1,84 @@
+.planos {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.padrao {
+    color: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    background-color: var(--verde-logo);
+    border-radius: 25px;
+    height: 430px;
+    width: 330px;
+    box-shadow:  0px 10px 18px #00000062;
+}
+
+.a_vista {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.parcelado {
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.padrao .assinar a {
+    background-color: var(--background);
+    color: var(--verde-logo);
+    border-radius: 25px;
+    font-weight: 200;
+    text-decoration: none;
+    padding: 8px 14px;
+    transition: .4s;
+    box-shadow:  0px 4px 12px #00000062;
+}
+
+.premium {
+    color: var(--background);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+    background: linear-gradient(-332deg, var(--verde-logo) 20%,  var(--verde-escuro) 100%); 
+    border-radius: 25px;
+    height: 560px;
+    width: 400px;
+    box-shadow:  0px 10px 18px #00000062;
+}
+
+.premium .assinar a {
+    background-color: var(--background);
+    color: var(--verde-logo);
+    border-radius: 18px;
+    text-decoration: none;
+    padding: 14px 24px;
+    font-weight: 800;
+    transition: .4s;
+    box-shadow:  0px 10px 18px #00000062;
+}
+
+.padrao a:hover,
+.premium a:hover{
+    background-color: var(--verde-logo);
+    border: .6px solid var(--background);
+    color: var(--background);
+}
+
+@media (max-width: 480px) {
+    .planos {
+        gap: 10px;
+    }
+}

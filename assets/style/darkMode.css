@@ -1,0 +1,9 @@
+.darkMode {
+    background-color: var(--background-dark);
+}
+
+.icon-darkMode {
+    margin: -25px 0px 0px 40px;
+    height: 60px;
+    width: 60px;
+}
