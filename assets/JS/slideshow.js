@@ -1,11 +1,11 @@
 let imagensLinha1 = [
-    'assets/images/solução/folhas-danificadas1.svg',
-    'assets/images/solução/folhas-danificadas2.svg',
+    'assets/images/solução/folha-danificada1.png',
+    'assets/images/solução/folha-danificada2.png',
 ];
 
 let imagensLinha2 = [
-    'assets/images/solução/folhas-danificadas2.svg',
-    'assets/images/solução/folhas-danificadas1.svg',
+    'assets/images/solução/folha-danificada2.png',
+    'assets/images/solução/folha-danificada1.png',
 ];
 
 let index = 0;
