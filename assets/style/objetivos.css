@@ -54,6 +54,82 @@ hr {
     font-weight: 200;
 }
 
+/* Responsivo 4K */
+@media (min-width: 2560px) {
+    .objetivos-introducao .objetivos-titulo {
+        padding-right: 800px;
+    }
+
+    .objetivos-introducao .objetivos-img {
+        gap: 60px;
+    }
+
+    .objetivos-introducao .objetivos-img img {
+        width: 320px;
+    }
+
+    .nosso-objetivos {
+        padding-right: 150px;
+        display: flex;
+        justify-content: center;
+        gap: 600px;
+    }
+
+    hr {
+        width: 400px;
+    }
+
+    .num {
+        font-size: 184px;
+    }
+
+    .descricao {
+        width: 540px;
+        font-size: 44px;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1440px) {
+    .objetivos-introducao .objetivos-img {
+        gap: 10px;
+    }
+
+    .objetivos-titulo p {
+        font-size: 46px;
+    }
+
+    .nosso-objetivos .obj {
+        width: 200px;
+    }
+
+    .nosso-objetivos .obj .num {
+        font-size: 70px;
+    }
+} 
+
+@media (max-width: 768px) {
+    .objetivos {
+        margin: 40px 0px 90px 0px;
+    }
+
+    .objetivos-introducao {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .objetivos-titulo {
+        padding-left: 40px;
+    }
+
+    .nosso-objetivos {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-left: -300px;
+    }
+}
+
 @media (max-width: 480px) {
     .objetivos-introducao {
         display: flex;
@@ -99,5 +175,50 @@ hr {
         justify-content: center;
         width: 400px;
         gap: 40px;
+    }
+}
+
+@media (max-width: 425px) {
+    .objetivos {
+        margin: -30px 0px 0px 0px;
+    }
+
+    .objetivos-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .objetivos-img img {
+        width: 30%;
+    }
+
+    .nosso-objetivos {
+        width: 425px;
+        padding-left: 500px;
+    }
+
+    .num {
+        font-size: 20px;
+    }
+
+    .descricao {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .objetivos-introducao {
+        margin-right: 25px;
+    }
+
+    .objetivos-titulo {
+        padding-right: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .obj {
+        margin-left: -70px;
     }
 }

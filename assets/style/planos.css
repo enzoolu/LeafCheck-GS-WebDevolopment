@@ -77,8 +77,83 @@ li {
     color: var(--background);
 }
 
+@media (min-width: 2560px) {
+    .padrao {
+        height: 730px;
+        width: 630px;
+    }
+
+    .premium {
+        height: 860px;
+        width: 700px;
+    }
+
+    .planos h1 {
+        font-size: 80px;
+    }
+
+    .planos h2 {
+        font-size: 46px;
+    }
+
+    .planos li {
+        font-size: 30px;
+    }
+
+    .planos a {
+        font-size: 40px;
+        padding: 14px 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .planos {
+        margin-top: 200px;
+        gap: 8px;
+    }
+}
+
 @media (max-width: 480px) {
     .planos {
         gap: 10px;
+    }
+}
+
+@media (max-width: 425px) {
+    .planos {
+        margin-top: 25px;
+        gap: 10px;
+    }
+    .padrao {
+        height: 330px;
+        width: 180px;
+    }
+
+    .premium {
+        height: 460px;
+        width: 250px;
+    }
+
+    .planos h1 {
+        font-size: 26px;
+    }
+
+    .planos h2 {
+        font-size: 22px;
+    }
+
+    .planos li {
+        font-size: 14px;
+    }
+
+    .planos a {
+        font-size: 20px;
+        padding: 14px 24px;
+    }
+}
+
+@media (max-width: 375px) {
+    .planos h1 {
+        font-size: 20px;
     }
 }

@@ -87,15 +87,59 @@
     border-radius: 20px;
 }
 
+/* Responsivo 4K */
+@media (min-width: 2560px) {
+    .texto-alvo p {
+        font-size: 86px;
+    }
+    .card {
+        width: 490px;
+        height: 590px;
+    }
+}
+
+/* Responsivo Laptop L */
+@media (max-width: 1440px) {
+    .card {
+        width: 270px;
+        height: 370px;
+    }
+}
+
+
 @media (max-width: 1280px) {
     .publico-alvo p {
         font-size: 46px;
         text-align: center;
     }
-
+    
     .card {
         width: 270px;
         height: 370px;
+    }
+}
+
+/* Responsivo Laptop */
+@media (max-width: 1024px) {
+    .card {
+        width: 220px;
+        height: 350px;
+    }
+
+    .card .texto-card h2 {
+        font-size: 20px;
+    }
+}
+
+/* Responsivo Tablet */
+@media (max-width: 768px) {
+    .cards {
+        margin-top: -30px;
+    }
+
+    .card {
+        width: 290px;
+        height: 390px;
     }
 }
 
@@ -112,5 +156,25 @@
 
     .texto-card {
         font-size: 12px;
+    }
+}
+
+/* Mobile M */
+@media (max-width: 375px) {
+    .card {
+        width: 150px;
+        height: 290px;
+    }
+}
+
+/* Mobile S */
+@media (max-width: 320px) {
+    .cards {
+        gap: 8px;
+    }
+
+    .card {
+        width: 150px;
+        height: 290px;
     }
 }

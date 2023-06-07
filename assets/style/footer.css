@@ -8,10 +8,22 @@ footer {
     align-items: center;
 }
 
+@media (min-width: 2560px) {
+    footer h3 {
+        font-size: 36px;
+    }
+}
+
 @media (max-width: 480px) {
     footer {
         display: flex;
         flex-direction: column-reverse;
         font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    footer h3 {
+        font-size: 16px;
     }
 }

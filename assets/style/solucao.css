@@ -21,10 +21,85 @@
     width: 555px;
 }
 
+/* Responsivo 4K */
+@media (min-width: 2560px) {
+    .solucao {
+        padding-top: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .solucao img {
+        width: 40%;
+    }
+
+    .solucao .linha1 p,
+    .solucao .linha2 p {
+        font-size: 40px;
+        width: 40%;
+    }
+}
+
+/* Laptop */
+@media (max-width: 1024px) {
+    .solucao .linha1 p {
+        margin-left: 20px;
+    }
+
+    .solucao .linha2 p {
+        margin-right: 20px;
+    }
+
+    .solucao img {
+        width: 70%;
+    }
+}
+
 @media (max-width: 1280px) {
     .linha1,
     .linha2 {
         gap: 80px;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    .solucao {
+        padding: 40px;
+        gap: 20px;
+    }
+
+    .solucao img {
+        width: 55%;
+    }
+
+    .solucao .linha1 p,
+    .solucao .linha2 p {
+        font-size: 20px;
+        width: 120%;
+    }
+}
+/* Mobile L */
+@media (max-width: 425px) {
+    .solucao {
+        padding: 40px;
+        gap: 20px;
+    }
+
+    .solucao img {
+        width: 130%;
+    }
+
+    .solucao .linha1 p,
+    .solucao .linha2 p {
+        font-size: 20px;
+        width: 110%;
+    }
+
+    .solucao .linha2 p {
+        margin-left: 40px;
     }
 }
 

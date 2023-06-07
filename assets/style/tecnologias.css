@@ -28,7 +28,21 @@
     margin-top: 260px;
 }
 
-@media (max-width: 480px) {
+/* Responsivo 4K */
+@media (min-width: 2560px) {
+    .tecnologias {
+        padding-top: 400px;
+    }
+    .tecnologias img {
+        width: 140%;
+    }
+
+    .tecnologias p {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 768px) {
     .db,
     .machine-learning {
         display: flex;
@@ -54,6 +68,10 @@
     .db img,
     .ia img,
     .machine-learning img {
-        width: 45%;
+        width: 35%;
+    }
+
+    .machine-learning {
+        margin-right: 30px;
     }
 }

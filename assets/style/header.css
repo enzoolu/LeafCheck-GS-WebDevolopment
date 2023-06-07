@@ -41,6 +41,24 @@ header a:hover {
     color: #000;
 }
 
+/* Responsivo 4K */
+@media (min-width: 2560px) {
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    header img {
+        width: 10%;
+    }
+
+    header nav ul li a {
+        font-size: 30px;
+    }
+}
+
 @media (min-width: 768px) {
     header img {
         padding: 10px 0px 20px 0px;
@@ -51,7 +69,7 @@ header a:hover {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 645px) {
     nav {
         display: none;
     }
